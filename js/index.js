@@ -1,4 +1,5 @@
-const colors = ["#c8c7f7", "#fed8b1", "#90ee90", "#ff7f7f"];
+//colors: https://www.schemecolor.com/beautiful-light-colors.php
+const colors = ["#ACDDDE", "#CAF1DE", "#E1F8DC", "#FEF8DD", "#FFE7C7", "#F7D8BA"];
 
 function setRandomColor() {
     var rand = Math.floor(Math.random() * colors.length);
