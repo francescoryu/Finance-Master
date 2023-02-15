@@ -30,7 +30,20 @@ input {
     font-size: 5vw;
 }
 
+input:focus {
+    border-radius: 8px;
+    scale: 1.1;
+    outline: none;
+}
+
 button {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 5vw;
+    background-color: white;
+    border-radius: 8px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #BCD2E8;
 }
