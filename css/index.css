@@ -14,6 +14,7 @@ body {
 .checkBox {
     height: 7vw;
     width: 7vw;
+    margin-left: 0;
 }
 
 .checkBoxDiv {
@@ -146,8 +147,8 @@ button:active {
 
 .arrowImg:active {
   margin-top: 30%;
-  width: 50%;
-  height: 50%;
+  width: 35%;
+  height: 35%;
   scale: 0.9;
 }
 
