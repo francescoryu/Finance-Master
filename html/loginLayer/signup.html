@@ -29,7 +29,13 @@
             <div><input type="text" id="lastName"></div>
             <div><p>Email</p></div>
             <div><input type="text" id="email"></div>
-            <button onclick="switchVisible()" class="continueButton">Weiter</button>
+            <div class="arrowBox">
+                <div>
+                    <a href="index.html">
+                    <img src="../../img/arrowLeft.png" class="arrowImg" alt=""></a>
+                </div>
+                <div><img src="../../img/arrowRight.png" class="arrowImg" alt="" onclick="switchVisible()"></div>
+            </div>
         </div>
 
         <div id="page2" class="animation">
@@ -37,14 +43,20 @@
             <div><input type="password" id="password"></div>
             <div><p>Passwort bestätigen</p></div>
             <div><input type="text" id="password"></div>
-            <div><p>Klasse</p></div>
+            <div><p>Klasse [Optional]</p></div>
             <div><input type="text" id="password"></div>
-            <p>Punkte öffentlich machen</p>
-            <div><label class="switch">
-                <input type="checkbox">
-                <span class="slider round"></span>
-            </label></div>
-            <center><button>Registrieren</button></center>
+            <p>Punkte öffentlich machen [Optional]</p>
+            <div>
+                <input type="checkbox" class="checkBox">
+            </div>
+            <div class="arrowBox">
+                <div>
+                    <img src="../../img/arrowLeft.png" class="arrowImg" alt="" onclick="switchVisible()">
+                </div>
+                <div>
+                    <img src="../../img/arrowRight.png" class="arrowImg" alt="" onclick="switchVisible()">
+                </div>
+            </div>
         </div>
     </fieldset>
 </body>
